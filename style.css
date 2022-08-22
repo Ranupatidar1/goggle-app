@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+justify-content: space-around;
+padding: 20px;
+
+}
+body{
+    background-color: rgb(4, 10, 50);
+    background-position: cover;
+}
+.header-search input{
+   width: 25vw;
+   padding: 13px;
+   border-radius: 30px;
+   
+}
+.header-search a{
+    text-decoration: none;
+    color: azure;
+    padding: 10px;
+}
+.link{
+    margin-top: 10px;
+}
+
+.header-logo button{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.header-theme button{
+    padding: 5px;
+    border-radius: 20px;
+    
+    
+}
+hr{
+    height: 0.1px;
+     border-width: 0;
+    background-color: rgb(156, 151, 151);
+   
+}
+@media (max-width:300px){
+    .header{
+      flex-direction: column;
+    }
+  }
